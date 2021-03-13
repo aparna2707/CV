@@ -1,9 +1,32 @@
-#head{
-background-color: rgb(143, 163, 163);
-background-size: 250px;
-width: 550px;
-padding: 50px;
+#img{ 
+    height: 150px;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
 }
-h4{
-    color:  rgb(87, 95, 95);
+#header{
+    
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    background:black;
+    color: white;
+} 
+#name{
+    letter-spacing: 0.4em;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+#web{
+    letter-spacing: 0.2em;
+    margin-top:40px;
+}
+#underline{
+    width: 435px;
+    height: 10px;
+    margin-top: 10px;
+    background: #ceced0;
+
 }
